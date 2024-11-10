@@ -3,17 +3,17 @@ email:              gemp.usp@gmail.com
 description:        Grupo de Estudos de Magnetosfera e Plasmas
 author:             GEMP
 baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://gemp-usp.github.io"
+url:                "https://startbootstrap.github.io"
 
 # Social Profiles
-#twitter_username:   SBootstrap
-#github_username:    StartBootstrap
-#facebook_username:  StartBootstrap
-#instagram_username:  
-#linkedin_username:
+twitter_username:   SBootstrap
+github_username:    StartBootstrap
+facebook_username:  StartBootstrap
+instagram_username:  
+linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
