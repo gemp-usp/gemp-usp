@@ -5,6 +5,16 @@ author:             GEMP
 baseurl:            "/gemp-usp"
 url:                "https://gemp-usp.github.io/"
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H5H3098P7T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H5H3098P7T');
+</script>
+
 # Social Profiles
 #twitter_username:   SBootstrap
 github_username:    gemp-usp
@@ -13,7 +23,7 @@ github_username:    gemp-usp
 #linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-H5H3098P7T # out your google-analytics code
+#google_analytics:   G-H5H3098P7T # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
