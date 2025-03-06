@@ -3,46 +3,44 @@ layout: page
 title: Leituras Sugeridas
 background: '/img/bg3-posts.jpg'
 ---
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Extensão</title>
+    <style>
+        /* Estilo para justificar o texto */
+        p {
+            text-align: justify;
+            line-height: 1.6; /* Melhora a legibilidade */
+            font-size: 1.1em; /* Tamanho de fonte um pouco maior para melhorar a leitura */
+            margin: 20px; /* Adiciona uma margem ao redor do parágrafo */
+            font-family: Open Sans; /* Define uma fonte legível */
+        }
 
-{% for post in paginator.posts %}
-
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
-</article>
-
-<hr>
-
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-<div class="clearfix">
-
-  {% if paginator.previous_page %}
-  <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-  {% endif %}
-
-</div>
-
-{% endif %}
+        /* Adicionando espaçamento entre parágrafos */
+        p + p {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+     <p> BOTHMER,V., DAGLIS,  I. A. Space Weather: Physics and Effects. Praxis Publishing Ltd, Chichester, 
+      UK, 2007. ISBN: 978-3-540-34578-7. </p>
+     <p> COSTA Jr., E., SIMÕES Jr., F.J.R., CARDOSO, F.R., ALVES, M.V. O vento solar e a atividade geomagnética. 
+       Revista Brasileira de Ensino de Física, v. 33, n. 4, 4301, 2011. </p>
+     <p> ECHER, E. Magnetosferas planetárias.  Revista Brasileira de Ensino de Física, v. 32, n. 2, 2301, 2010. </p>
+     <p> KIVELSON, M. G.; RUSSEL, C. T. Introduction to space physics. [S.l.]: Cambridge University Press, 1995.  </p>
+     <p> KIVELSON, M. G.; BAGENAL, F. Planetary Magnetospheres. Encyclopedia of the Solar System (2º edition), 2007. </p>
+     <p> RUSSEL, C. T. The structure of the magnetopause. Institute of Geophysics and Planetary Physics, Department of 
+       Earth and Space Sciences, University of California, 3845 Slichter Hall, MS 156704, Los Angeles, CA, 90095-1567, 
+       USA, 2003. </p>
+     <p> SOUZA, V. M., SILVEIRA, M. V. D., KOGA, D., & JAUER, P. R. Bases teóricas da reconexão magnética. Revista 
+       Brasileira de Ensino de Física, 38(2), 2016. </p>
+     <p> SIBECK, D. G., LOPEZ, R. E., ROELOF, E. C. Solar Wind Control of the Magnetopause Shape, Location, and Motion. 
+       Journal of Geophysical Research, v. 96, n. A4, p. 5489-5495, 1991. </p>
+     <p> SHUE, J.-H. et al. Magnetopause location under extreme solar wind conditions. Journal of Geophysical Research: 
+       Space Physics, v. 103, n. A8, p. 17691–17700, 1998. </p>
+    
+</body>
+</html>
