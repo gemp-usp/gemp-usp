@@ -1,0 +1,77 @@
+---
+layout: default
+title: "Participação do GEMP na Semana Acadêmica da Geofísica Espacial do INPE"
+subtitle: "Trabalhos apresentados pelo Grupo de Estudos de Magnetosfera e Plasmas (GEMP-USP)"
+author: "GEMP-USP"
+date: 2025-11-12
+background: "/img/posts/gemp-inpe.jpg"
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <h2 class="subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+          <span class="meta">Posted by
+            <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+            on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=page.content %}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p><strong>Participação do GEMP da Semana Acadêmica da Geofísica Espacial do INPE.</strong></p>
+
+      <p>Integrantes do GEMP participaram da Semana Acadêmica promovida pela Divisão de Heliofísica, Ciências Planetárias e Aeronomia (DIHPA) do Instituto Nacional de Pesquisas Espaciais – INPE. Durante o evento, que ocorreu no campus do Instituto em São José dos Campos (SP), foram apresentados diversos trabalhos relacionados à física espacial e aeronomia, meio interplanetário e clima espacial.</p>
+
+      <p><em>Confira o resumo e os vídeos das apresentações:</em></p>
+
+      <h3>Vitor Moura - What is Magnetic Field Reconnection?</h3>
+      <p>A reconexão magnética é o processo pelo qual linhas de campo magnético com direções opostas se encontram, mudam sua conectividade e liberam energia armazenada, acelerando e aquecendo o plasma. No estudo da magnetosfera, a reconexão ocorre principalmente em duas regiões: o lado diurno (dia) da Terra, onde os campos magnéticos interplanetários e terrestres se opõem, e a cauda magnética (magnetotail), onde o vento solar estica os campos da Terra. Os resultados apresentados também exploram escala cinética, incluindo a chamada região de difusão de íons e elétrons, onde a reconexão ocorre em microescala, revelando jatos de elétrons extremamente rápidos. Apesar de muitos avanços, questões como por que a reconexão não ocorre continuamente e como escalas macro e micro interagem ainda são temas de pesquisa ativa. Este trabalho demonstra como a reconexão magnética, apesar de microscópica, tem impactos enormes no transporte de energia e plasma na magnetosfera, influenciando tempestades geomagnéticas e fenômenos associados.</p>
+      <p><a href="#">https://www.youtube.com/live/_iGLO6B_YwA?si=ty2eqXwH412X233B&t=2766</a></p>
+
+      <h3>Flavia Cardoso - Our ongoing research on Magnetosphere</h3>
+      <p>O Grupo de Estudos de Magnetosfera e Plasmas (GEMP-USP) estuda como linhas de fluxo magnético reconectadas transportam energia e plasma do vento solar para o campo magnético terrestre, causando compressões e distúrbios na magnetopausa. Através de dados de satélites no espaço é possível identificar travessias da magnetopausa, analisando jatos de plasma e evidências de reconexão magnética — fenômeno responsável pelo transporte de energia para a Terra. O grupo também estuda túbulos de fluxo magnético (FTEs), que variam em tamanho e permitem que plasma e energia penetrem na magnetosfera, ajudando a entender a dinâmica complexa do campo magnético terrestre. Além dos riscos para satélites e sistemas tecnológicos, os eventos severos estudados pelo GEMP podem gerar efeitos visuais impressionantes, como auroras visíveis a olho nu em várias regiões do mundo. Combinando observações de satélites, modelos empíricos e simulações, o grupo fornece contribuições importantes para compreender o clima espacial e os impactos das tempestades geomagnéticas.</p>
+      <p><a href="#">https://www.youtube.com/live/_iGLO6B_YwA?si=WmH06bSsewocnsSC&t=15209</a></p>
+
+      <h3>Marcos Silveira - Dynamic Boundaries: Tracking the Magnetopause Response to Solar Wind Variations</h3>
+      <p>A magnetopausa é a fronteira externa do campo magnético da Terra, que separa a magnetosfera da região turbulenta do vento solar conhecida como bainha magnética. Ela está intimamente ligada à <em>bow shock</em>, a fronteira mais externa onde o vento solar desacelera. Entender a posição e a dinâmica da magnetopausa é essencial para estudar o clima espacial, já que qualquer fenômeno energético proveniente do Sol passa por essas fronteiras antes de impactar a Terra. Diferentes abordagens são usadas para identificar e rastrear a magnetopausa. Observações de satélites permitem localizar a fronteira através de variações no campo magnético, densidade, velocidade e espectro de partículas, embora ofereçam apenas uma visão local. Simulações numéricas oferecem uma visão global da magnetosfera, enquanto modelos empíricos fornecem estimativas rápidas da posição da magnetopausa, com base em parâmetros como pressão dinâmica do vento solar e orientação do campo magnético interplanetário. O estudo da magnetopausa também envolve fenômenos complexos, como reconexão magnética e instabilidades de Kelvin-Helmholtz, que podem alterar a posição da fronteira e misturar partículas da magnetosfera e da bainha. Por isso, a abordagem mais robusta combina observações <em>in situ</em>, simulações numéricas e modelos empíricos, fornecendo um panorama mais completo e confiável da dinâmica dessa região crucial do espaço próximo à Terra. O GEMP-USP continua investigando essas fronteiras e incentiva colaborações para ampliar o entendimento sobre a magnetopausa e seu papel no clima espacial.</p>
+      <p><a href="#">https://www.youtube.com/live/w2abKpihoYU?si=rOt20ienJxNvcMHL&t=3712</a></p>
+
+      <h3>Rafael Cutait - Flux Transfer Events spatial distribution at Earth’s dayside magnetopause and their cross-section determination</h3>
+      <p>A interação entre o vento solar e a magnetosfera terrestre ocorre predominantemente por meio do processo de reconexão magnética, que possibilita a transferência de energia e fluxo magnético para o interior da magnetosfera. Uma das manifestações mais conhecidas desse processo são os eventos de transferência de fluxo (FTEs), estruturas tubulares que conectam linhas de campo interplanetárias às linhas de campo terrestres. Nesse contexto, a missão <em>Magnetospheric Multiscale</em> (MMS) forneceu dados de alta resolução que permitem caracterizar FTEs em escalas menores e com maior precisão do que em missões anteriores, contribuindo para o avanço no entendimento desses fenômenos. Os resultados obtidos evidenciam que os FTEs analisados apresentam raio na direção transversal da ordem da escala dos íons e velocidades de propagação compatíveis com as velocidades do plasma da região. Esses dados contribuem para uma melhor compreensão sobre a interação entre o plasma e os FTEs, mostrando que essas estruturas se propagam de forma conjunta com o fluxo local de plasma, mantendo consistência direcional ao longo do evento. Assim, reforça-se o papel fundamental dos FTEs na transferência de energia e fluxo magnético através da magnetopausa.</p>
+      <p><a href="/img/posts/postr_SAGE_2025.pdf" target="_blank">📄 Baixar Poster (PDF)</a></p>
+
+
+      <p><strong>Quer saber mais?</strong> Entre em contato conosco: <a href="mailto:gemp-usp@gmail.com">gemp-usp@gmail.com</a></p>
+
+      <hr>
+
+      <div class="clearfix">
+        {% if page.previous.url %}
+        <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</div>
