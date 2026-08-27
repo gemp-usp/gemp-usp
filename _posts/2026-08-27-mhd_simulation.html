@@ -9,7 +9,10 @@ background: '/img/posts/tempestade-magnetica.jpg'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempestades solares no computador: como as simulações ajudam a estudar a magnetosfera da Terra | GEMP-USP</title>
+
+    <title>
+        Tempestades solares no computador: como as simulações ajudam a estudar a magnetosfera da Terra | GEMP-USP
+    </title>
 
     <style>
         p {
@@ -59,6 +62,25 @@ background: '/img/posts/tempestade-magnetica.jpg'
         .secao-leituras a:hover {
             text-decoration: underline;
             font-size: 0.5em;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 700px;
+            margin: 20px auto;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
     </style>
 </head>
@@ -129,6 +151,7 @@ Durante o evento de maio de 2024, a velocidade do vento solar ultrapassou
 a região ao redor da Terra, a magnetosfera pode sofrer uma forte compressão.
 </p>
 
+
 <div class="secao-leituras">
     <h2>Do Sol à tempestade geomagnética</h2>
     <ul>
@@ -142,27 +165,40 @@ a região ao redor da Terra, a magnetosfera pode sofrer uma forte compressão.
     </ul>
 </div>
 
+
 <figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/gemp-usp/gemp-usp/master/img/posts/solar_flare_maio_2024.jpg"
-         alt="Explosões solares classe X."
+    <img src="{{ site.baseurl }}/img/posts/solar_flare_maio_2024.jpg"
+         alt="Explosões solares de classe X"
          width="100%"
          style="max-width: 700px; display: block; margin: 0 auto;">
+
     <figcaption style="font-size: 0.5em; color: #555; margin-top: 5px;">
-      Explosões solares classe X.  
-      Fonte NASA/SDO.
+        Explosões solares de classe X.
+        Fonte: NASA/SDO.
     </figcaption>
 </figure>
-    
-<div style="position: relative; width: 100%; max-width: 700px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 
 
- 
+<figure style="text-align: center;">
 
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1jW3oFRKyp8?si=76rcHmQ6w60iiRtz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-     title="Auroras boreais registradas durante a tempestade de maio de 2024"
-     Fonte: Sparweb's Projects
-</div>
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/1jW3oFRKyp8?si=76rcHmQ6w60iiRtz"
+            title="Auroras boreais registradas durante a tempestade de maio de 2024"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <figcaption style="font-size: 0.5em; color: #555; margin-top: 5px;">
+        Auroras boreais registradas durante a tempestade de maio de 2024.
+        Fonte: Sparweb's Projects.
+    </figcaption>
+
+</figure>
+
+
 <h2 class="section-heading">A magnetosfera e a magnetopausa</h2>
 
 <p>
@@ -186,7 +222,6 @@ bastante significativa.
 <p>
 Foi justamente esse comportamento que Nathan investigou em seu trabalho.
 </p>
-
 
 
 <h2 class="section-heading">Como uma simulação pode mostrar o que acontece no espaço?</h2>
@@ -221,11 +256,13 @@ magnetosfera e o momento em que ela ocorreu.
 
 
 <figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/gemp-usp/gemp-usp/master/img/posts/modelo_fluxograma.jpg"
-         alt="Simulação magnetohidrodinâmica da magnetosfera durante uma tempestade geomagnética"
+    <img src="{{ site.baseurl }}/img/posts/modelo_fluxograma.jpg"
+         alt="Fluxograma da simulação magnetohidrodinâmica"
          width="100%"
          style="max-width: 700px; display: block; margin: 0 auto;">
+
     <figcaption style="font-size: 0.5em; color: #555; margin-top: 5px;">
+        Fluxograma representando as etapas da pesquisa.
     </figcaption>
 </figure>
 
@@ -250,14 +287,15 @@ mais externa da magnetosfera foi deslocada significativamente em direção à Te
 
 
 <figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/gemp-usp/gemp-usp/master/img/posts/mhd_maio_2024_2.gif"
+    <img src="{{ site.baseurl }}/img/posts/mhd_maio_2024_2.gif"
          alt="Animação da simulação mostrando a compressão da magnetopausa"
          width="100%"
          style="max-width: 700px; display: block; margin: 0 auto;">
+
     <figcaption style="font-size: 0.5em; color: #555; margin-top: 5px;">
         Simulação mostrando a resposta da magnetosfera e a compressão da magnetopausa
         durante a tempestade geomagnética de maio de 2024.
-      Fonte:CCMC/NASA
+        Fonte: CCMC/NASA.
     </figcaption>
 </figure>
 
@@ -318,10 +356,12 @@ o ambiente espacial ao redor da Terra.
             de ejeções de massa coronal e produziu uma intensa perturbação
             geomagnética na Terra.
         </li>
+
         <li>
             Durante eventos intensos, a magnetopausa pode se deslocar
             significativamente em direção ao planeta.
         </li>
+
         <li>
             As simulações permitem acompanhar regiões do espaço onde não existem
             instrumentos realizando medições diretamente.
